@@ -1,0 +1,15 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "dependencyDashboard": false,
+  "automerge": true,
+  "automergeType": "pr",
+  "platformAutomerge": false,
+  "ignoreTests": true,
+  "prHourlyLimit": 0,
+  "prConcurrentLimit": 0,
+  "branchConcurrentLimit": 0,
+  "separateMajorMinor": false,
+  "packageRules": [
+    { "matchDatasources": ["docker"], "matchPackageNames": ["alpine"], "allowedVersions": "<3.20" }
+  ]
+}
