@@ -3,7 +3,6 @@
   "dependencyDashboard": false,
   "automerge": true,
   "automergeType": "pr",
-  "automergeBypassRules": false,
   "platformAutomerge": false,
   "ignoreTests": true,
   "prHourlyLimit": 0,
@@ -11,6 +10,7 @@
   "branchConcurrentLimit": 0,
   "separateMajorMinor": false,
   "packageRules": [
-    { "matchDatasources": ["docker"], "matchPackageNames": ["alpine"], "allowedVersions": "<3.20" }
+    { "matchDatasources": ["docker"], "matchPackageNames": ["alpine"], "allowedVersions": "<3.20" },
+    { "matchDatasources": ["docker"], "matchPackageNames": ["nginx"], "allowedVersions": "<1.28" }
   ]
 }
