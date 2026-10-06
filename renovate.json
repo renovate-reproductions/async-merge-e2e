@@ -3,6 +3,7 @@
   "dependencyDashboard": false,
   "automerge": true,
   "automergeType": "pr",
+  "automergeBypassRules": false,
   "platformAutomerge": false,
   "ignoreTests": true,
   "prHourlyLimit": 0,
